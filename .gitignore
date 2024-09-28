@@ -1,0 +1,9 @@
+# Ignore everything
+*
+# But not these files
+!main.py
+!script.sql
+# Ignore all files in any directory
+*/**/*
+# Include the directories containing those files and the parent directories
+!*/
